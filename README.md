@@ -8,13 +8,12 @@ Skimmon uses AI detection to find suspected skimmer devices at ATMs, gas pumps, 
 - Interactive map (Folium + Flask, GeoJSON)
 - Wi-Fi detection of skimmers using AI to identify suspicious signals
 - Multi-user visibility
-- Firebase Firestore + SQLite integration
 - Wi-Fi scanning to find skimming devices in the area
 - MCP server integration for modular expansion
 
 ## Technical Architecture
 - **Frontend:** Flask templates + Folium map rendering  
-- **Backend:** Python Flask server, Firestore integration, SQLite caching  
+- **Backend:** Python Flask server  
 - **Data Standards:** GeoJSON for location-based reporting  
 - **MCP Server:** FastAPI-based detection workflow 
 ## MCP Server (`main.py`)
@@ -103,7 +102,6 @@ To validate Skimmon’s detection pipeline, we built a simulated skimmer device 
 - **Flask** – web framework for serving the interactive map
 - **Folium** – map rendering and visualization
 - **GeoJSON** – standardized format for location-based reporting
-- **Firebase Firestore** – cloud database for storing reports
 - **SQLite** – local caching and lightweight storage
 - **Wi‑Fi scanning** – primary detection method for identifying suspicious signals
 - **FastAPI** – framework powering the MCP server
