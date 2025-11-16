@@ -22,7 +22,7 @@ Skimmon includes a FastAPI-based MCP server (`main.py`) that powers the Wi‑Fi 
 
 ### Key Responsibilities
 - **Wi‑Fi Scan Input Models:** Defines structured inputs (`WifiScanInput`) with fields like MAC, BSSID, SSID, RSSI, and protocol.
-- **Risk Assessment:** Uses OpenAI (`gpt‑4o‑mini`) with custom prompts and tools to analyze suspicious Wi‑Fi signals.
+- **Risk Assessment:** Uses OpenAI (`gpt‑4o`) with custom prompts and tools to analyze suspicious Wi‑Fi signals.
 - **Risk Levels:** Classifies devices into `low`, `medium`, or `high` risk based on AI scoring.
 - **Local Storage:** Keeps a record of all detections in memory (`all_detections`).
 - **API Endpoints:**
