@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report Skimmer</title>
+</head>
+<body>
+  <h3>Report suspected skimmer</h3>
+  <form id="rform">
+    <!-- Separate address fields -->
+    <label>Street
+      <input id="street" name="street" placeholder="123 Main St">
+    </label><br>
+
+    <label>City
+      <input id="city" name="city" placeholder="Springfield">
+    </label><br>
+
+    <label>State
+      <input id="state" name="state" placeholder="VA">
+    </label><br>
+
+    <label>ZIP
+      <input id="zip" name="zip" placeholder="22150">
+    </label><br>
+
+    <!-- Lat/Lng fields (can be auto‑filled or geocoded) -->
+    <label>Latitude
+      <input id="lat" name="lat" value="{{ lat or '' }}" required>
+    </label><br>
+
+    <label>Longitude
+      <input id="lng" name="lng" value="{{ lng or '' }}" required>
+    </label><br>
+
+    <label>Accuracy (m)
+      <input id="acc" name="location_accuracy_m">
+    </label><br>
+
+    <label>Evidence
+      <select id="evidence" name="evidence">
+        <option value="user_report">User report</option>
+        <option value="ai_detection">AI detection</option>
+      </select>
+    </label><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function isoNow() { return new Date().toISOString(); }
+
+    // Autofill with browser geolocation if no lat/lng provided
+    if (navigator.geolocation && !document.getElementById('lat').value) {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          document.getElementById('lat').value = pos.coords.latitude.toFixed(6);
+          document.getElementById('lng').value = pos.coords.longitude.toFixed(6);
+          document.getElementById('acc').value = Math.round(pos.coords.accuracy);
+        },
+        (err) => console.warn('Geolocation error', err),
+        { enableHighAccuracy: true, timeout: 8000, maximumAge: 0 }
+      );
+    }
+
+    document.getElementById('rform').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      let lat = document.getElementById('lat').value;
+      let lng = document.getElementById('lng').value;
+
+      // Build address string from separate fields
+      const street = document.getElementById('street').value;
+      const city = document.getElementById('city').value;
+      const state = document.getElementById('state').value;
+      const zip = document.getElementById('zip').value;
+      const address = [street, city, state, zip].filter(Boolean).join(", ");
+
+      // If address is provided and lat/lng are empty, geocode it
+      if (address && (!lat || !lng)) {
+        const resp = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`);
+        const results = await resp.json();
+        if (results.length > 0) {
+          lat = results[0].lat;
+          lng = results[0].lon;
+          document.getElementById('lat').value = lat;
+          document.getElementById('lng').value = lng;
+        } else {
+          alert("Address not found. Please try again.");
+          return;
+        }
+      }
+
+      const payload = {
+        lat: parseFloat(lat),
+        lng: parseFloat(lng),
+        location_accuracy_m: parseFloat(document.getElementById('acc').value || 50),
+        timestamp: isoNow(),
+        source: "user",
+        evidence: document.getElementById('evidence').value
+      };
+
+      const res = await fetch('/api/report', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      alert(`Report submitted. Cell risk: ${data.risk_level}`);
+      window.location.href = `/map?lat=${payload.lat}&lng=${payload.lng}`;
+    });
+  </script>
+</body>
+</html>

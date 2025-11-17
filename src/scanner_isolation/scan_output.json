@@ -1,0 +1,296 @@
+{
+    "model": [
+        {
+            "detection_id": "10903e76-af56-4931-9296-c9d2af15e1e6",
+            "mac": "cc:db:93:f2:d0:6a",
+            "bssid": "cc:db:93:f2:d0:6a",
+            "risk_score": 85,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-87 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 90%"
+        },
+        {
+            "detection_id": "08194275-c59e-47e2-830c-98d06cb1c480",
+            "mac": "a4:b4:39:a6:ba:ea",
+            "bssid": "a4:b4:39:a6:ba:ea",
+            "risk_score": 80,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 85%"
+        },
+        {
+            "detection_id": "a687d9cc-fce7-41f0-a79b-49799419c783",
+            "mac": "cc:db:93:f3:2e:ea",
+            "bssid": "cc:db:93:f3:2e:ea",
+            "risk_score": 75,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-72 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 80%"
+        },
+        {
+            "detection_id": "1d5fc86b-b42e-41d1-8ccc-cc02a230e3a5",
+            "mac": "a4:b2:39:9f:24:ea",
+            "bssid": "a4:b2:39:9f:24:ea",
+            "risk_score": 78,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-49 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 80%"
+        },
+        {
+            "detection_id": "2e36b510-bdf8-4d54-8dc1-9f938978cab5",
+            "mac": "a4:b2:39:9f:b6:8a",
+            "bssid": "a4:b2:39:9f:b6:8a",
+            "risk_score": 81,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 85%"
+        },
+        {
+            "detection_id": "b4d2fac3-ccd1-431a-ada3-6ce4c0a9a4af",
+            "mac": "a4:b2:39:a0:f8:aa",
+            "bssid": "a4:b2:39:a0:f8:aa",
+            "risk_score": 70,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-65 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 75%"
+        },
+        {
+            "detection_id": "c1be12c9-2056-4301-a707-ebb336f05aed",
+            "mac": "a4:b2:39:9f:b6:84",
+            "bssid": "a4:b2:39:9f:b6:84",
+            "risk_score": 88,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-87 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 92%"
+        },
+        {
+            "detection_id": "0090eea2-ddb4-4588-a3c4-ae42224f0d72",
+            "mac": "cc:db:93:f2:d0:64",
+            "bssid": "cc:db:93:f2:d0:64",
+            "risk_score": 79,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-80 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 80%"
+        },
+        {
+            "detection_id": "1b732d5b-c9ea-4356-8783-212ea062afd5",
+            "mac": "cc:db:93:f3:2e:e4",
+            "bssid": "cc:db:93:f3:2e:e4",
+            "risk_score": 76,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-69 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 77%"
+        },
+        {
+            "detection_id": "a6f6966e-7140-4c40-9b2e-67400b7fcbf4",
+            "mac": "a4:b2:39:9f:24:e4",
+            "bssid": "a4:b2:39:9f:24:e4",
+            "risk_score": 77,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-47 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 78%"
+        },
+        {
+            "detection_id": "1768c519-e800-451f-af3a-b712d1d3d222",
+            "mac": "cc:db:93:f2:d0:6d",
+            "bssid": "cc:db:93:f2:d0:6d",
+            "risk_score": 87,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-87 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 93%"
+        },
+        {
+            "detection_id": "a39aef55-d49c-4023-890b-588d68c89129",
+            "mac": "a4:b4:39:a6:ba:ed",
+            "bssid": "a4:b4:39:a6:ba:ed",
+            "risk_score": 83,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 88%"
+        },
+        {
+            "detection_id": "88443480-a1c9-4658-bc68-333f10973e21",
+            "mac": "cc:db:93:f3:2e:ed",
+            "bssid": "cc:db:93:f3:2e:ed",
+            "risk_score": 74,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-77 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 79%"
+        },
+        {
+            "detection_id": "95b420fa-4354-4559-8356-ce959d32293c",
+            "mac": "a4:b2:39:9f:24:ed",
+            "bssid": "a4:b2:39:9f:24:ed",
+            "risk_score": 76,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-49 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 75%"
+        },
+        {
+            "detection_id": "74f30f0d-154c-444b-9ea8-93286e7bf6a8",
+            "mac": "a4:b2:39:9f:b6:8d",
+            "bssid": "a4:b2:39:9f:b6:8d",
+            "risk_score": 82,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 86%"
+        },
+        {
+            "detection_id": "2fece9dd-342c-457a-b551-a2a81738f8d8",
+            "mac": "a4:b2:39:a0:f8:ad",
+            "bssid": "a4:b2:39:a0:f8:ad",
+            "risk_score": 79,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-70 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 80%"
+        },
+        {
+            "detection_id": "fe687b09-294b-49fb-ac16-e6e0bdab83ca",
+            "mac": "ec:9a:74:9c:e3:53",
+            "bssid": "ec:9a:74:9c:e3:53",
+            "risk_score": 40,
+            "risk_level": "medium",
+            "ai_comments": "RSSI=-89 dBm, model_score=unknown \u2192 low risk | Recommendation: Safe | Confidence: 50%"
+        },
+        {
+            "detection_id": "2e664864-b1fb-4ac1-938b-564c8e5b9cf1",
+            "mac": "1c:bf:ce:17:3d:1d",
+            "bssid": "1c:bf:ce:17:3d:1d",
+            "risk_score": 30,
+            "risk_level": "low",
+            "ai_comments": "RSSI=-86 dBm, model_score=unknown \u2192 low risk | Recommendation: Safe | Confidence: 40%"
+        },
+        {
+            "detection_id": "80dab1ee-1274-4a31-a2c4-5101b5a5d1c7",
+            "mac": "46:50:dd:09:2f:b7",
+            "bssid": "46:50:dd:09:2f:b7",
+            "risk_score": 50,
+            "risk_level": "medium",
+            "ai_comments": "RSSI=-70 dBm, model_score=unknown \u2192 low risk | Recommendation: Safe | Confidence: 60%"
+        },
+        {
+            "detection_id": "5e938e56-297f-4d6a-a9a2-bff035fb5d57",
+            "mac": "02:fc:8b:35:ca:b9",
+            "bssid": "02:fc:8b:35:ca:b9",
+            "risk_score": 65,
+            "risk_level": "medium",
+            "ai_comments": "RSSI=-84 dBm, model_score=unknown \u2192 low risk | Recommendation: Monitor | Confidence: 70%"
+        },
+        {
+            "detection_id": "e319f095-5e08-46ef-b729-30e23133a888",
+            "mac": "cc:db:93:f2:d0:69",
+            "bssid": "cc:db:93:f2:d0:69",
+            "risk_score": 82,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-80 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 88%"
+        },
+        {
+            "detection_id": "cdae8fc9-367d-42ea-8941-5078deec33f1",
+            "mac": "cc:db:93:f2:d0:63",
+            "bssid": "cc:db:93:f2:d0:63",
+            "risk_score": 72,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-79 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 78%"
+        },
+        {
+            "detection_id": "bfd0f2a7-4a4c-4b01-8cdd-ebf3f708e794",
+            "mac": "a4:b4:39:a6:ba:ec",
+            "bssid": "a4:b4:39:a6:ba:ec",
+            "risk_score": 80,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 high risk of being a skimmer | Recommendation: Inspect immediately | Confidence: 85%"
+        },
+        {
+            "detection_id": "5c210f74-59cd-4d2b-b008-bc96069fbd0d",
+            "mac": "a4:b2:39:9f:b6:83",
+            "bssid": "a4:b2:39:9f:b6:83",
+            "risk_score": 77,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-87 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 79%"
+        },
+        {
+            "detection_id": "d1c074e0-a4e3-4195-8c26-f26247f1fdb7",
+            "mac": "a4:b2:39:9f:24:ec",
+            "bssid": "a4:b2:39:9f:24:ec",
+            "risk_score": 76,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-49 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 78%"
+        },
+        {
+            "detection_id": "17604ad3-1be2-4dbf-8cd4-df8063dcfe62",
+            "mac": "a4:b2:39:9f:b6:89",
+            "bssid": "a4:b2:39:9f:b6:89",
+            "risk_score": 72,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-85 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 75%"
+        },
+        {
+            "detection_id": "f8fdcae5-e46b-42ee-8ce6-058ec1724bc5",
+            "mac": "cc:db:93:f3:2e:ec",
+            "bssid": "cc:db:93:f3:2e:ec",
+            "risk_score": 77,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-72 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 78%"
+        },
+        {
+            "detection_id": "925ed850-ccef-403e-80cc-2f5de204bf68",
+            "mac": "cc:db:93:f3:2e:e9",
+            "bssid": "cc:db:93:f3:2e:e9",
+            "risk_score": 74,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-69 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 76%"
+        },
+        {
+            "detection_id": "229fc287-9eeb-4aa7-b648-d38996cb25da",
+            "mac": "cc:db:93:f3:2e:e3",
+            "bssid": "cc:db:93:f3:2e:e3",
+            "risk_score": 66,
+            "risk_level": "medium",
+            "ai_comments": "RSSI=-66 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 70%"
+        },
+        {
+            "detection_id": "f576af0e-e75d-4e74-9a97-afe61da49802",
+            "mac": "a4:b4:39:a6:ba:e5",
+            "bssid": "a4:b4:39:a6:ba:e5",
+            "risk_score": 78,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 79%"
+        },
+        {
+            "detection_id": "a98a8864-5183-4430-95be-683712dcab7d",
+            "mac": "cc:db:93:f3:2e:e5",
+            "bssid": "cc:db:93:f3:2e:e5",
+            "risk_score": 73,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-72 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 75%"
+        },
+        {
+            "detection_id": "a769ac46-93bd-4408-9354-e76324a90628",
+            "mac": "a4:b2:39:9f:24:e5",
+            "bssid": "a4:b2:39:9f:24:e5",
+            "risk_score": 71,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-49 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 72%"
+        },
+        {
+            "detection_id": "7e983905-76da-45b8-8ed3-22ccf8339df7",
+            "mac": "a4:b2:39:9f:b6:85",
+            "bssid": "a4:b2:39:9f:b6:85",
+            "risk_score": 70,
+            "risk_level": "high",
+            "ai_comments": "RSSI=-82 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 70%"
+        },
+        {
+            "detection_id": "a2c038c8-6fce-4524-b6a4-3eb0893b730f",
+            "mac": "a4:b2:39:a0:f8:a5",
+            "bssid": "a4:b2:39:a0:f8:a5",
+            "risk_score": 67,
+            "risk_level": "medium",
+            "ai_comments": "RSSI=-69 dBm, model_score=unknown \u2192 potential skimmer | Recommendation: Monitor closely | Confidence: 70%"
+        },
+        {
+            "detection_id": "b3aeaabf-392b-4b86-998b-ba6cb96948ad",
+            "mac": "28:cd:c1:0e:8a:ae",
+            "bssid": "28:cd:c1:0e:8a:ae",
+            "risk_score": 39,
+            "risk_level": "low",
+            "ai_comments": "RSSI=-53 dBm, model_score=unknown \u2192 low risk | Recommendation: Safe | Confidence: 50%"
+        },
+        {
+            "detection_id": "f7e02fe8-4b25-46cf-aa87-bea24f426f5a",
+            "mac": "d8:ec:5e:08:f5:8f",
+            "bssid": "d8:ec:5e:08:f5:8f",
+            "risk_score": 44,
+            "risk_level": "medium",
+            "ai_comments": "RSSI=-70 dBm, model_score=unknown \u2192 low risk | Recommendation: Safe | Confidence: 60%"
+        }
+    ],
+    "location": {
+        "lat": 38.8228895,
+        "lon": -77.3001213
+    }
+}

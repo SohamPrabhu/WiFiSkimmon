@@ -1,0 +1,629 @@
+{
+    "wifi": [
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:6a",
+            "bssid": "cc:db:93:f2:d0:6a",
+            "ssid": "MyResNet-5G",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:ea",
+            "bssid": "a4:b4:39:a6:ba:ea",
+            "ssid": "MyResNet-5G",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:ea",
+            "bssid": "cc:db:93:f3:2e:ea",
+            "ssid": "MyResNet-5G",
+            "rssi": -72,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:ea",
+            "bssid": "a4:b2:39:9f:24:ea",
+            "ssid": "MyResNet-5G",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:8a",
+            "bssid": "a4:b2:39:9f:b6:8a",
+            "ssid": "MyResNet-5G",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:aa",
+            "bssid": "a4:b2:39:a0:f8:aa",
+            "ssid": "MyResNet-5G",
+            "rssi": -65,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:84",
+            "bssid": "a4:b2:39:9f:b6:84",
+            "ssid": "MyResNet-2G",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:64",
+            "bssid": "cc:db:93:f2:d0:64",
+            "ssid": "MyResNet-2G",
+            "rssi": -80,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e4",
+            "bssid": "cc:db:93:f3:2e:e4",
+            "ssid": "MyResNet-2G",
+            "rssi": -69,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:e4",
+            "bssid": "a4:b2:39:9f:24:e4",
+            "ssid": "MyResNet-2G",
+            "rssi": -47,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:a4",
+            "bssid": "a4:b2:39:a0:f8:a4",
+            "ssid": "MyResNet-2G",
+            "rssi": -68,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:6d",
+            "bssid": "cc:db:93:f2:d0:6d",
+            "ssid": "Short Term Guest",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:ed",
+            "bssid": "a4:b4:39:a6:ba:ed",
+            "ssid": "Short Term Guest",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:ed",
+            "bssid": "cc:db:93:f3:2e:ed",
+            "ssid": "Short Term Guest",
+            "rssi": -77,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:ed",
+            "bssid": "a4:b2:39:9f:24:ed",
+            "ssid": "Short Term Guest",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:8d",
+            "bssid": "a4:b2:39:9f:b6:8d",
+            "ssid": "Short Term Guest",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:ad",
+            "bssid": "a4:b2:39:a0:f8:ad",
+            "ssid": "Short Term Guest",
+            "rssi": -70,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "ec:9a:74:9c:e3:53",
+            "bssid": "ec:9a:74:9c:e3:53",
+            "ssid": "HP-Print-53-Officejet Pro 8600",
+            "rssi": -89,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "1c:bf:ce:17:3d:1d",
+            "bssid": "1c:bf:ce:17:3d:1d",
+            "ssid": "b33a4b4d",
+            "rssi": -86,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "46:50:dd:09:2f:b7",
+            "bssid": "46:50:dd:09:2f:b7",
+            "ssid": "DIRECT-roku-GR2-AEA290",
+            "rssi": -70,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "02:fc:8b:35:ca:b9",
+            "bssid": "02:fc:8b:35:ca:b9",
+            "ssid": "",
+            "rssi": -84,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:69",
+            "bssid": "cc:db:93:f2:d0:69",
+            "ssid": "",
+            "rssi": -80,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:63",
+            "bssid": "cc:db:93:f2:d0:63",
+            "ssid": "",
+            "rssi": -79,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:ec",
+            "bssid": "a4:b4:39:a6:ba:ec",
+            "ssid": "",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:83",
+            "bssid": "a4:b2:39:9f:b6:83",
+            "ssid": "",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:ec",
+            "bssid": "a4:b2:39:9f:24:ec",
+            "ssid": "",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:89",
+            "bssid": "a4:b2:39:9f:b6:89",
+            "ssid": "",
+            "rssi": -85,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:ec",
+            "bssid": "cc:db:93:f3:2e:ec",
+            "ssid": "",
+            "rssi": -72,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e9",
+            "bssid": "cc:db:93:f3:2e:e9",
+            "ssid": "",
+            "rssi": -69,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e3",
+            "bssid": "cc:db:93:f3:2e:e3",
+            "ssid": "",
+            "rssi": -66,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:6d",
+            "bssid": "cc:db:93:f2:d0:6d",
+            "ssid": "Short Term Guest",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:ed",
+            "bssid": "a4:b4:39:a6:ba:ed",
+            "ssid": "Short Term Guest",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:ed",
+            "bssid": "cc:db:93:f3:2e:ed",
+            "ssid": "Short Term Guest",
+            "rssi": -77,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:ed",
+            "bssid": "a4:b2:39:9f:24:ed",
+            "ssid": "Short Term Guest",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:8d",
+            "bssid": "a4:b2:39:9f:b6:8d",
+            "ssid": "Short Term Guest",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:ad",
+            "bssid": "a4:b2:39:a0:f8:ad",
+            "ssid": "Short Term Guest",
+            "rssi": -70,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:6a",
+            "bssid": "cc:db:93:f2:d0:6a",
+            "ssid": "MyResNet-5G",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:ea",
+            "bssid": "a4:b4:39:a6:ba:ea",
+            "ssid": "MyResNet-5G",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:ea",
+            "bssid": "cc:db:93:f3:2e:ea",
+            "ssid": "MyResNet-5G",
+            "rssi": -72,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:ea",
+            "bssid": "a4:b2:39:9f:24:ea",
+            "ssid": "MyResNet-5G",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:8a",
+            "bssid": "a4:b2:39:9f:b6:8a",
+            "ssid": "MyResNet-5G",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:aa",
+            "bssid": "a4:b2:39:a0:f8:aa",
+            "ssid": "MyResNet-5G",
+            "rssi": -65,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:68",
+            "bssid": "cc:db:93:f2:d0:68",
+            "ssid": "SMSC Guest",
+            "rssi": -86,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:67",
+            "bssid": "cc:db:93:f2:d0:67",
+            "ssid": "SMSC Guest",
+            "rssi": -80,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:e8",
+            "bssid": "a4:b4:39:a6:ba:e8",
+            "ssid": "SMSC Guest",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e8",
+            "bssid": "cc:db:93:f3:2e:e8",
+            "ssid": "SMSC Guest",
+            "rssi": -72,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:e8",
+            "bssid": "a4:b2:39:9f:24:e8",
+            "ssid": "SMSC Guest",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:88",
+            "bssid": "a4:b2:39:9f:b6:88",
+            "ssid": "SMSC Guest",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:a8",
+            "bssid": "a4:b2:39:a0:f8:a8",
+            "ssid": "SMSC Guest",
+            "rssi": -70,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e7",
+            "bssid": "cc:db:93:f3:2e:e7",
+            "ssid": "SMSC Guest",
+            "rssi": -69,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:e7",
+            "bssid": "a4:b2:39:9f:24:e7",
+            "ssid": "SMSC Guest",
+            "rssi": -48,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:a7",
+            "bssid": "a4:b2:39:a0:f8:a7",
+            "ssid": "SMSC Guest",
+            "rssi": -68,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:84",
+            "bssid": "a4:b2:39:9f:b6:84",
+            "ssid": "MyResNet-2G",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:64",
+            "bssid": "cc:db:93:f2:d0:64",
+            "ssid": "MyResNet-2G",
+            "rssi": -80,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e4",
+            "bssid": "cc:db:93:f3:2e:e4",
+            "ssid": "MyResNet-2G",
+            "rssi": -69,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:e4",
+            "bssid": "a4:b2:39:9f:24:e4",
+            "ssid": "MyResNet-2G",
+            "rssi": -47,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:a4",
+            "bssid": "a4:b2:39:a0:f8:a4",
+            "ssid": "MyResNet-2G",
+            "rssi": -68,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:65",
+            "bssid": "cc:db:93:f2:d0:65",
+            "ssid": "MyResNet Start Here",
+            "rssi": -87,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f2:d0:6a",
+            "bssid": "cc:db:93:f2:d0:6a",
+            "ssid": "MyResNet Start Here",
+            "rssi": -79,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b4:39:a6:ba:e5",
+            "bssid": "a4:b4:39:a6:ba:e5",
+            "ssid": "MyResNet Start Here",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:e5",
+            "bssid": "cc:db:93:f3:2e:e5",
+            "ssid": "MyResNet Start Here",
+            "rssi": -72,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:e5",
+            "bssid": "a4:b2:39:9f:24:e5",
+            "ssid": "MyResNet Start Here",
+            "rssi": -49,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:b6:85",
+            "bssid": "a4:b2:39:9f:b6:85",
+            "ssid": "MyResNet Start Here",
+            "rssi": -82,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:a5",
+            "bssid": "a4:b2:39:a0:f8:a5",
+            "ssid": "MyResNet Start Here",
+            "rssi": -69,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "cc:db:93:f3:2e:ea",
+            "bssid": "cc:db:93:f3:2e:ea",
+            "ssid": "MyResNet Start Here",
+            "rssi": -69,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:9f:24:ea",
+            "bssid": "a4:b2:39:9f:24:ea",
+            "ssid": "MyResNet Start Here",
+            "rssi": -48,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "a4:b2:39:a0:f8:aa",
+            "bssid": "a4:b2:39:a0:f8:aa",
+            "ssid": "MyResNet Start Here",
+            "rssi": -68,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "28:cd:c1:0e:8a:ae",
+            "bssid": "28:cd:c1:0e:8a:ae",
+            "ssid": "FreeWiFi",
+            "rssi": -53,
+            "protocol": "WiFi",
+            "model_score": null
+        },
+        {
+            "timestamp": "2025-11-17T00:00:31.336046",
+            "mac": "d8:ec:5e:08:f5:8f",
+            "bssid": "d8:ec:5e:08:f5:8f",
+            "ssid": "Wemo.Plug.998",
+            "rssi": -70,
+            "protocol": "WiFi",
+            "model_score": null
+        }
+    ],
+    "location": {
+        "lat": 38.8228895,
+        "lon": -77.3001213
+    }
+}
