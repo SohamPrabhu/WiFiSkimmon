@@ -1,5 +1,6 @@
 # Skimmon
-A crowd-controlled system used to find skimmers in local areas to increase safety with money.
+- By: Colin Craig, Kavon Barr, Sudarsan Nallabola, Soham Prabhu
+- A crowd-controlled system used to find skimmers in local areas to increase safety with money.
 
 ## Overview
 Skimmon uses AI detection to find suspected skimmer devices at ATMs, gas pumps, and point-of-sale terminals. Reports are then added to a live updated map seen by every party using the software. This helps the community avoid fraud and raises awareness of unsafe locations.
@@ -119,6 +120,16 @@ To validate Skimmon’s detection pipeline, we built a simulated skimmer device 
 - **network** - configured the Rasbery Pi to broadcast Wi-Fi
 - **bluetooth** - enabled BLE advertising on Rasbery Pi
 - **struct** – built proper BLE advertising packets for detection by scanners
+
+## Challenges
+- Map Integration
+- Using unfamiliar APIs
+- Compatabilty with hardwares
+## What we learned
+- How to use MCP servers
+- How to get locations with Wi-Fi
+- How to make a map with folium and put markers on it
+- How to scan for Wi-Fi packages without WireShark
 
 
 ## Resources
